@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="chart.js"></script>
+    <link rel="stylesheet" href="app.css" />
+    <title>Live Chat AutoPolls | App Version: 1.12</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>Currently Viewing: <span id="currentlyViewing">...</span></p>
+      <p id="timer-display"></p>
+    </div>
+    <div class="buttons">
+      <button id="reset">Reset Poll</button>
+      <form id="set-timer">
+        <label id="set-timer-label" for="timer">Countdown(sec)</label>
+        <input type="number" id="timer" name="timer" required /><br /><br />
+        <input type="submit" value="Set" id="submit-timer" />
+      </form>
+    </div>
+    <div class="container">
+      <canvas id="chart"></canvas>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Chat AutoPolls</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">
+        <img id="logo" src="logo128.png" />
+        <p id="app-name">Live Chat AutoPolls</p>
+      </div>
+      <div class="header-switch">
+        <p id="onoff">OFF/ON</p>
+        <label class="switch">
+          <input id="toggle" type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+    <div class="rules">
+      <p id="rule-paragraph">
+        For proper usage: <br />1. Keep one open Twitch Tab at a time. <br />2.
+        Refresh the whole page (shortcut: F5) after changing streamers.
+      </p>
+    </div>
+    <div class="open-app-section">
+      <button id="open-app-btn">Open App</button>
+      <p id="error"></p>
+    </div>
+    <div class="support-me">
+      <p>Liked my app? Support me on</p>
+      <a href="https://www.buymeacoffee.com/dimlin" target="_blank">
+        <img
+          id="buymecoffeeImg"
+          src="buymecoffee.png"
+          width="110px"
+          height="26px"
+        />
+      </a>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
